@@ -1,8 +1,6 @@
 import { Box } from "@mui/material";
 import { PropsWithChildren } from "react";
 
-import "./layout.css";
-
 export default function IframeLayout({ children }: PropsWithChildren) {
   return (
     <Box

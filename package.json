@@ -19,6 +19,7 @@
     "classnames": "^2.5.1",
     "framer-motion": "^12.4.10",
     "i18next": "^24.2.3",
+    "i18next-resources-to-backend": "^1.2.1",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "lodash": "^4.17.21",
