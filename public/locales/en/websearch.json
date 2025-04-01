@@ -1,0 +1,21 @@
+{
+  "SEARCH_BAR": {
+    "PLACEHOLDER": "Search",
+    "SEARCH_BUTTON": "Search"
+  },
+  "STATS": {
+    "RESULT_COUNT_one": "Found {{count, number}} search result",
+    "RESULT_COUNT_other": "Found {{count, number}} search results",
+    "PAGE_NUMBER_WITH_RESULT_COUNT_one": "Page {{page_number}} of {{count, number}} search result",
+    "PAGE_NUMBER_WITH_RESULT_COUNT_other": "Page {{page_number}} of {{count, number}} search results"
+  },
+  "NO_RESULTS": {
+    "LABEL": "No results found",
+    "IMAGE_ALT": "Image of a cancelled request"
+  },
+  "WAITING_FOR_INPUT": {
+    "LABEL": "Search the websites of the ecosystem actors...",
+    "IMAGE_ALT": "Image of a typewriter"
+  },
+  "MISSING_TERMS": "Missing: <strike>{{terms}}</strike>"
+}

@@ -1,0 +1,135 @@
+{
+  "DATA_ADMINISTRATION": {
+    "DELETE": {
+      "REQUEST_FAILED": "Es ist ein unerwarteter Fehler aufgetreten. Der Akteur wurde nicht gelöscht.",
+      "REQUEST_SUCCESSFUL": "{{name}} wurde gelöscht",
+      "DIALOG": {
+        "TITLE": "Akteur löschen",
+        "BODY": "Möchten Sie {{name}} wirklich löschen?",
+        "CANCEL_BUTTON": "Abbrechen",
+        "CONFIRM_BUTTON": "Löschen"
+      }
+    },
+    "EDIT_BUTTON": "Bearbeiten",
+    "SEE_ALL_ACTIONS_LABEL": "Alle Aktionen zur Datenverwaltung anzeigen",
+    "MENU": {
+      "ALL_ACTIONS_HEADING": "Alle Aktionen",
+      "EDIT_BUTTON": "Bearbeiten",
+      "DELETE_BUTTON": "Löschen"
+    }
+  },
+  "FORM": {
+    "ERRORS": {
+      "REQUIRED": "{{path}} ist ein Pflichtfeld",
+      "URL": "{{path}} muss eine gültige URL sein (z.B. https://www.beispiel.de)",
+      "EMAIL": "{{path}} muss eine gültige Email-Adresse sein (z.B. info@beispiel.de)",
+      "MIN": "{{path}} muss größer oder gleich {{min}} sein",
+      "MAX": "{{path}} muss kleiner oder gleich {{max}} sein"
+    },
+    "FIELDS": {
+      "COVER_IMAGE": "Titelbild",
+      "NAME": "Name",
+      "WEBSITE": "Webseite",
+      "WAS_ANALYZED": "Analysiert?",
+      "TYPE": "Typ",
+      "SECTOR": "Sektor",
+      "DESCRIPTION": "Beschreibung",
+      "EMAIL_ADDRESS": "Email",
+      "PHONE_NUMBER": "Telefon",
+      "FACEBOOK_URL": "Facebook",
+      "TWITTER_URL": "Twitter",
+      "LINKEDIN_URL": "LinkedIn",
+      "STREET_ADDRESS": "Adresse",
+      "ZIP_CODE": "Postleitzahl",
+      "LOCALITY": "Gemeinde",
+      "COUNTY": "Landkreis",
+      "LATITUDE": "Breitengrad (Koordinate)",
+      "LONGITUDE": "Längengrad (Koordinate)",
+      "SDGS": "Sustainable Development Goals",
+      "TAGS": "Tags",
+      "NOTES": "Interne Notizen"
+    },
+    "SECTIONS": {
+      "COVER_IMAGE": "Titelbild",
+      "ABOUT": "Infos",
+      "CONTACT_DETAILS": "Kontaktdaten",
+      "LOCATION": "Standort",
+      "SDGS": "Sustainable Development Goals",
+      "TAGS": "Tags",
+      "NOTES": "Interne Notizen"
+    },
+    "VALUES": {
+      "WAS_ANALYZED": {
+        "YES": "Ja",
+        "NO": "Nein"
+      }
+    },
+    "PLACEHOLDERS": {
+      "DESCRIPTION": "Beschreibung hinzufügen...",
+      "NOTES": "Interne Notizen hinzufügen..."
+    },
+    "BUTTON": {
+      "SAVE": "Speichern",
+      "CANCEL": "Abbrechen"
+    },
+    "AUTOCOMPLETE": {
+      "LOADING_TEXT": "Die bestehenden Einträge werden geladen...",
+      "ADD_OPTION": "\"{{option}}\" hinzufügen"
+    },
+    "ALERTS": {
+      "UPDATE_FAIL": "Es ist ein unerwarteter Fehler aufgetreten. Die Daten wurden nicht gespeichert.",
+      "UPDATE_SUCCESS": "{{name}} wurde aktualisiert",
+      "CREATE_FAIL": "Es ist ein unerwarteter Fehler aufgetreten. Der Akteur wurde nicht angelegt.",
+      "CREATE_SUCCESS": "{{name}} wurde erstellt"
+    }
+  },
+  "BADGE": {
+    "ANALYZED": "Analysiert",
+    "NOT_ANALYZED": "Nicht analysiert"
+  },
+  "SECTION": {
+    "SDGS": {
+      "KEYWORDS_TOOLTIP": "Gefundene SDG-Schlüsselwörter",
+      "HEADING": "Sustainable Development Goals",
+      "WEBSITE_NOT_ANALYZED": "Diese Webseite konnte nicht analysiert werden. Unter Umständen existiert die Webseite nicht mehr oder das Scraping der Webseite ist untersagt.",
+      "NOT_FOUND": "Keinen Beitrag zu den Sustainable Development Goals gefunden."
+    },
+    "COVER_IMAGE": {
+      "HEADING": "Titelbild"
+    },
+    "ABOUT": {
+      "HEADING": "Infos",
+      "HOMEPAGE": "Webseite",
+      "TYPE": "Typ",
+      "SECTOR": "Sektor",
+      "DESCRIPTION": "Beschreibung"
+    },
+    "CONTACT_DETAILS": {
+      "HEADING": "Kontaktdaten",
+      "EMAIL": "Email",
+      "PHONE": "Telefon",
+      "FACEBOOK": "Facebook",
+      "TWITTER": "Twitter",
+      "LINKEDIN": "LinkedIn"
+    },
+    "LOCATION": {
+      "HEADING": "Standort",
+      "ADDRESS": "Adresse",
+      "ZIP_CODE": "Postleitzahl",
+      "LOCALITY": "Gemeinde",
+      "COUNTY": "Landkreis",
+      "COORDINATES": "Koordinaten"
+    },
+    "TAGS": {
+      "HEADING": "Tags"
+    },
+    "NOTES": {
+      "HEADING": "Interne Notizen"
+    }
+  },
+  "PAGES": {
+    "NEW": {
+      "HEADING": "Neuer Akteur"
+    }
+  }
+}

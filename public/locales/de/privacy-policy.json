@@ -1,0 +1,34 @@
+{
+  "PAGE": {
+    "HEADING": "Datenschutz"
+  },
+  "DATA_COLLECTION": {
+    "HEADING": "Welche Daten sammelt Global Goals Directory von Besuchern?",
+    "BODY": [
+      "<line>Wir beschränken die Erfassung von personenbezogenen Daten und persönlich identifizierbaren Informationen auf ein Minimum. Wenn Sie unsere Plattform nutzen, speichern wir nur die E-Mail-Adresse, mit der Sie sich anmelden.</line>",
+      "<line>Zu Logging-Zwecken erfassen wir die Aktionen, die auf unserer Plattform durchgeführt werden. Wenn Sie eine Aktion durchführen, die eine API-Anfrage auslöst (z. B. das Anzeigen oder Bearbeiten eines Akteurs), erstellen wir einen Log-Eintrag mit dem  Zeitstempel, wann die Aktion durchgeführt wurde, dem Namen der durchgeführten Aktion und der E-Mail-Adresse des Benutzers.</line>",
+      "<line>Zum Zweck der Fehlerüberwachung werden Webseiten-Fehler automatisch erfasst und an <rollbarLink>Rollbar</rollbarLink> übertragen. Rollbar ist ein DSGVO-konformer Dienst zur Fehlerüberwachung. Es werden keine personenbezogenen Daten oder persönlich identifizierbare Informationen an Rollbar gesendet.</line>"
+    ]
+  },
+  "COOKIE_USE": {
+    "HEADING": "Welche Cookies werden von Global Goals Directory verwendet?",
+    "BODY": "Wir verwenden nur Cookies, die für die Session-Authentifizierung unbedingt erforderlich sind. Diese Cookies werden beim Login erstellt und können durch einen Logout jederzeit gelöscht werden. Die Cookies umfassen:",
+    "COOKIE_LIST": [
+      "sAccessToken: Dies ist der Zugriffstoken der Session, mit dem bei API-Aufrufen überprüft wird, ob ein:e Nutzer:in authentifiziert ist.",
+      "sRefreshToken: Dies ist der Refresh-Token der Session, der verwendet wird, um einen neuen Zugriffs- (und Refresh-Token) zu erhalten, wenn der vorhandene Zugriffstoken abläuft.",
+      "sFrontToken: Wird verwendet, um auf dem Frontend auf die Daten des Zugriffstokens und die E-Mail-Adresse des Benutzers zuzugreifen, ohne den sAccessToken offenzulegen."
+    ]
+  },
+  "OTHER_WEBSITES": {
+    "HEADING": "Datenschutzrichtlinien anderer Webseiten",
+    "BODY": "Diese Website enthält Links zu anderen Websites. Wenn Sie auf einen Link zu einer anderen Website klicken, konsultieren Sie bitte die jeweiligen Datenschutzrichtlinien für weitere Informationen. Unsere Datenschutzrichtlinie gilt nur für diese Website."
+  },
+  "CHANGES": {
+    "HEADING": "Änderungen an unserer Datenschutzerklärung",
+    "BODY": "Global Goals Directory überprüft seine Datenschutzrichtlinien regelmäßig und veröffentlicht etwaige Aktualisierungen auf dieser Webseite. Diese Datenschutzrichtlinie wurde zuletzt im Mai 2023 aktualisiert."
+  },
+  "CONTACT": {
+    "HEADING": "Wie Sie Global Goals Directory kontaktieren können",
+    "BODY": "Wenn Sie Fragen zu unserer Datenschutzerklärung haben, zu den Daten, die wir über Sie speichern, oder wenn Sie eines Ihrer Datenschutzrechte ausüben möchten, zögern Sie bitte nicht, uns zu kontaktieren. Sie können uns unter <emailLink /> erreichen."
+  }
+}

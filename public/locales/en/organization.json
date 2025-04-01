@@ -1,0 +1,135 @@
+{
+  "DATA_ADMINISTRATION": {
+    "DELETE": {
+      "REQUEST_FAILED": "An unexpected error occurred. Actor has not been deleted.",
+      "REQUEST_SUCCESSFUL": "{{name}} has been deleted",
+      "DIALOG": {
+        "TITLE": "Delete actor",
+        "BODY": "Do you really want to delete {{name}}?",
+        "CANCEL_BUTTON": "Cancel",
+        "CONFIRM_BUTTON": "Delete"
+      }
+    },
+    "EDIT_BUTTON": "Edit",
+    "SEE_ALL_ACTIONS_LABEL": "See all data administration actions",
+    "MENU": {
+      "ALL_ACTIONS_HEADING": "All actions",
+      "EDIT_BUTTON": "Edit",
+      "DELETE_BUTTON": "Delete"
+    }
+  },
+  "FORM": {
+    "ERRORS": {
+      "REQUIRED": "{{path}} is a required field",
+      "URL": "{{path}} must be a valid URL",
+      "EMAIL": "{{path}} must be a valid email address",
+      "MIN": "{{path}} must be greater than or equal to {{min}}",
+      "MAX": "{{path}} must be less than or equal to {{max}}"
+    },
+    "FIELDS": {
+      "COVER_IMAGE": "Cover Image",
+      "NAME": "Name",
+      "WEBSITE": "Website",
+      "WAS_ANALYZED": "Was analysed?",
+      "TYPE": "Type",
+      "SECTOR": "Sector",
+      "DESCRIPTION": "Description",
+      "EMAIL_ADDRESS": "Email",
+      "PHONE_NUMBER": "Phone",
+      "FACEBOOK_URL": "Facebook",
+      "TWITTER_URL": "Twitter",
+      "LINKEDIN_URL": "LinkedIn",
+      "STREET_ADDRESS": "Address",
+      "ZIP_CODE": "Postcode",
+      "LOCALITY": "Locality",
+      "COUNTY": "County",
+      "LATITUDE": "Latitude (Coordinate)",
+      "LONGITUDE": "Longitude (Coordinate)",
+      "SDGS": "Sustainable Development Goals",
+      "TAGS": "Tags",
+      "NOTES": "Internal Notes"
+    },
+    "SECTIONS": {
+      "COVER_IMAGE": "Cover Image",
+      "ABOUT": "About",
+      "CONTACT_DETAILS": "Contact Details",
+      "LOCATION": "Location",
+      "SDGS": "Sustainable Development Goals",
+      "TAGS": "Tags",
+      "NOTES": "Internal Notes"
+    },
+    "VALUES": {
+      "WAS_ANALYZED": {
+        "YES": "Yes",
+        "NO": "No"
+      }
+    },
+    "PLACEHOLDERS": {
+      "DESCRIPTION": "Add description...",
+      "NOTES": "Add internal notes here..."
+    },
+    "BUTTON": {
+      "SAVE": "Save",
+      "CANCEL": "Cancel"
+    },
+    "AUTOCOMPLETE": {
+      "LOADING_TEXT": "The existing values are being loaded...",
+      "ADD_OPTION": "Add \"{{option}}\""
+    },
+    "ALERTS": {
+      "UPDATE_FAIL": "An unexpected error occurred. Data has not been saved.",
+      "UPDATE_SUCCESS": "{{name}} has been updated",
+      "CREATE_FAIL": "An unexpected error occurred. Actor has not been created.",
+      "CREATE_SUCCESS": "{{name}} has been created"
+    }
+  },
+  "BADGE": {
+    "ANALYZED": "Analysed",
+    "NOT_ANALYZED": "Not analysed"
+  },
+  "SECTION": {
+    "SDGS": {
+      "KEYWORDS_TOOLTIP": "SDG keywords found",
+      "HEADING": "Sustainable Development Goals",
+      "WEBSITE_NOT_ANALYZED": "This website could not be analysed. Perhaps the website no longer exists or scraping of the website is not permitted.",
+      "NOT_FOUND": "No contribution to the Sustainable Development Goals found."
+    },
+    "COVER_IMAGE": {
+      "HEADING": "Cover Image"
+    },
+    "ABOUT": {
+      "HEADING": "About",
+      "HOMEPAGE": "Website",
+      "TYPE": "Type",
+      "SECTOR": "Sector",
+      "DESCRIPTION": "Description"
+    },
+    "CONTACT_DETAILS": {
+      "HEADING": "Contact Details",
+      "EMAIL": "Email",
+      "PHONE": "Phone",
+      "FACEBOOK": "Facebook",
+      "TWITTER": "Twitter",
+      "LINKEDIN": "LinkedIn"
+    },
+    "LOCATION": {
+      "HEADING": "Location",
+      "ADDRESS": "Address",
+      "ZIP_CODE": "Postcode",
+      "LOCALITY": "Locality",
+      "COUNTY": "County",
+      "COORDINATES": "Coordinates"
+    },
+    "TAGS": {
+      "HEADING": "Tags"
+    },
+    "NOTES": {
+      "HEADING": "Internal Notes"
+    }
+  },
+  "PAGES": {
+    "NEW": {
+      "HEADING": "New actor"
+    }
+  }
+}

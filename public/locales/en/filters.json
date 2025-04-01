@@ -1,0 +1,74 @@
+{
+  "FILTER": {
+    "SDGS": {
+      "LABEL": "SDGs",
+      "AUTOCOMPLETE_LABEL": "Select SDGs"
+    },
+    "WAS_ANALYZED": {
+      "LABEL": "Analysed",
+      "BUTTON_LABELS": {
+        "TRUE": "Yes",
+        "FALSE": "No"
+      },
+      "AUTOCOMPLETE_LABELS": {
+        "TRUE": "Analysed",
+        "FALSE": "Not analysed"
+      },
+      "AUTOCOMPLETE_LABEL": "Select analysed"
+    },
+    "TYPE": {
+      "LABEL": "Type",
+      "AUTOCOMPLETE_LABEL": "Select type"
+    },
+    "SECTOR": {
+      "LABEL": "Sector",
+      "AUTOCOMPLETE_LABEL": "Select sector"
+    },
+    "ZIP_CODE": {
+      "LABEL": "Postcode",
+      "AUTOCOMPLETE_LABEL": "Select postcode"
+    },
+    "LOCALITY": {
+      "LABEL": "Locality",
+      "AUTOCOMPLETE_LABEL": "Select locality"
+    },
+    "COUNTY": {
+      "LABEL": "County",
+      "AUTOCOMPLETE_LABEL": "County"
+    },
+    "TAG": {
+      "LABEL": "Tags",
+      "AUTOCOMPLETE_LABEL": "Tags"
+    },
+    "LABELS": {
+      "NO_VALUE": "No value"
+    }
+  },
+  "BAR": {
+    "ADD_FILTER_BUTTON": "Add filter",
+    "REMOVE_ALL_FILTERS_BUTTON": "Remove all filters",
+    "SEARCH_PLACEHOLDER": "Search"
+  },
+  "ADD_FILTER_DIALOG": {
+    "MENU_HEADING": "Filter by:"
+  },
+  "REMOVE_ALL_FILTERS_DIALOG": {
+    "TITLE": "Remove all filters",
+    "BODY": "Do you really want to remove all filters?",
+    "CANCEL_BUTTON": "No",
+    "CONFIRM_BUTTON": "Yes"
+  },
+  "AUTOCOMPLETE": {
+    "NO_OPTIONS_TEXT": "No options found"
+  },
+  "FILTER_MENU": {
+    "ARIA_LABEL": "More filter actions",
+    "SELECT_ALL": "Select all",
+    "SELECT_NONE": "Select none",
+    "REMOVE_FILTER_BUTTON": "Remove filter"
+  },
+  "FILTER_DIALOG": {
+    "CONFIRM_BUTTON": "OK",
+    "REMOVE_BUTTON": "Remove"
+  }
+}

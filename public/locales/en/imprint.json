@@ -1,0 +1,28 @@
+{
+  "PAGE": {
+    "HEADING": "Imprint"
+  },
+  "LEGAL_DISCLAIMER": "Information according to § 5 TMG",
+  "COMPANY_ADDRESS": [
+    "Wölm Capital UG (haftungsbeschränkt)",
+    "Legal successor of 2030 Ecosystems UG (haftungsbeschränkt) following merger",
+    "Chausseestraße 86",
+    "10115 Berlin",
+    "Germany"
+  ],
+  "REPRESENTED_BY": {
+    "HEADING": "Represented by",
+    "PERSONS": ["Finn Woelm"]
+  },
+  "CONTACT": {
+    "HEADING": "Contact",
+    "EMAIL": "Email: <link/>",
+    "WEBSITE": "Website: <link/>"
+  },
+  "REGISTER_ENTRY": {
+    "HEADING": "Register entry",
+    "TYPE": "Registration in the commercial register",
+    "NUMBER": "Register number: HRB 253877 B",
+    "COURT": "Register court: Amtsgericht Charlottenburg"
+  }
+}

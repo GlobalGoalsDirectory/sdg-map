@@ -1,0 +1,21 @@
+{
+  "SEARCH_BAR": {
+    "PLACEHOLDER": "Suchen",
+    "SEARCH_BUTTON": "Suchen"
+  },
+  "STATS": {
+    "RESULT_COUNT_one": "{{count, number}} Ergebnis gefunden",
+    "RESULT_COUNT_other": "{{count, number}} Ergebnisse gefunden",
+    "PAGE_NUMBER_WITH_RESULT_COUNT_one": "Seite {{page_number}} von {{count, number}} Ergebnis",
+    "PAGE_NUMBER_WITH_RESULT_COUNT_other": "Seite {{page_number}} von {{count, number}} Ergebnissen"
+  },
+  "NO_RESULTS": {
+    "LABEL": "Keine Ergebnisse gefunden",
+    "IMAGE_ALT": "Zeichnung einer fehlgeschlagenen Anfrage"
+  },
+  "WAITING_FOR_INPUT": {
+    "LABEL": "Die Webseiten der Ökosystem-Akteure durchsuchen...",
+    "IMAGE_ALT": "Zeichnung einer Schreibmaschine"
+  },
+  "MISSING_TERMS": "Es fehlt: <strike>{{terms}}</strike>"
+}

@@ -1,0 +1,75 @@
+{
+  "ADDRESS_AUTOCOMPLETE": {
+    "LOADING_TEXT": "Wird geladen..."
+  },
+  "NAVIGATION": {
+    "SDG_ECOSYSTEM": "SDG Ökosystem",
+    "TOOLTIPS": {
+      "CHANGE_LANGUAGE": "Sprache ändern",
+      "LOGGED_IN_AS_EMAIL": "Eingeloggt als {{email}}",
+      "LOGOUT": "Logout"
+    },
+    "LOGOUT": "Logout",
+    "LOGIN": "Login",
+    "OVERVIEW": "Übersicht",
+    "DIRECTORY": "Verzeichnis",
+    "MAP": "Karte",
+    "INSIGHTS": "Statistik",
+    "WEBSEARCH": "Web-Suche",
+    "DOWNLOADS": "Downloads",
+    "SUPPORT": "Hilfe",
+    "FEEDBACK": "Feedback",
+    "POWERED_BY": "Powered by",
+    "IMPRINT": "Impressum",
+    "PRIVACY_POLICY": "Datenschutz"
+  },
+  "SDG_NUMBER_AND_TITLE": "SDG {{number}}: {{title}}",
+  "IMAGE_INPUT": {
+    "UPLOAD_IMAGE": "Bild hochladen",
+    "CLEAR_IMAGE": "Bild löschen",
+    "DRAG_N_DROP_HINT": "oder per Drag-and-Drop"
+  },
+  "TRUNCATED_TEXT": {
+    "MORE_BUTTON": "mehr"
+  },
+  "MANUAL_CONFIDENCE_LEVEL": "Manuell zugeordnet",
+  "HIGH_CONFIDENCE_LEVEL": "Hohe Aussagesicherheit",
+  "MEDIUM_CONFIDENCE_LEVEL": "Mittlere Aussagesicherheit",
+  "LOW_CONFIDENCE_LEVEL": "Geringe Aussagesicherheit",
+  "NO_CONFIDENCE_LEVEL": "Keine Aussagesicherheit",
+  "MANUAL_CONFIDENCE_LEVEL_SHORT": "Manuell",
+  "HIGH_CONFIDENCE_LEVEL_SHORT": "Hoch",
+  "MEDIUM_CONFIDENCE_LEVEL_SHORT": "Mittel",
+  "LOW_CONFIDENCE_LEVEL_SHORT": "Niedrig",
+  "NO_CONFIDENCE_LEVEL_SHORT": "Unsicher",
+  "MANUAL_CONFIDENCE_LEVEL_EXPLANATION": "Dieses SDG wurde manuell zugeordnet",
+  "HIGH_CONFIDENCE_LEVEL_EXPLANATION": "Hohe Aussagefähigkeit: Es wurden viele relevante Treffer für dieses SDG entdeckt",
+  "MEDIUM_CONFIDENCE_LEVEL_EXPLANATION": "Mittlere Aussagefähigkeit: Es wurden einige relevante Treffer für dieses SDG entdeckt",
+  "LOW_CONFIDENCE_LEVEL_EXPLANATION": "Geringe Aussagefähigkeit: Es wurden nur wenige relevante Treffer für dieses SDG entdeckt",
+  "NO_CONFIDENCE_LEVEL_EXPLANATION": "Keine Aussagesicherheit: Es wurden vereinzelte Treffer entdeckt, die eventuell relevant sein könnten",
+  "TYPE": {
+    "STARTUP": "Startup",
+    "BUSINESS": "Unternehmen",
+    "NONPROFIT": "Verein",
+    "OTHER": "Sonstige"
+  },
+  "BREADCRUMBS": {
+    "IMPRINT": "Impressum",
+    "PRIVACY_POLICY": "Datenschutz",
+    "LOGIN": "Login",
+    "INDEX": "Übersicht",
+    "DIRECTORY": "Verzeichnis",
+    "MAP": "Karte",
+    "INSIGHTS": "Statistik",
+    "WEBSEARCH": "Web-Suche",
+    "DOWNLOADS": "Downloads",
+    "ORGANIZATIONS": {
+      "NEW": "Neuer Akteur",
+      "EDIT": "Bearbeiten"
+    }
+  },
+  "WEBSITE_TITLE": "Global Goals Directory: Plattform",
+  "BUTTONS": {
+    "NEW_ACTOR": "Neuer Akteur"
+  }
+}

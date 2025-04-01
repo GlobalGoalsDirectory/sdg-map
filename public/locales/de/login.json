@@ -1,0 +1,39 @@
+{
+  "REQUEST_OPT": {
+    "ERROR": {
+      "BLANK_EMAIL": "Bitte geben Sie Ihre Email-Adresse ein.",
+      "EMAIL_INVALID": "Diese Email-Adresse ist nicht gültig.",
+      "ACCESS_DENIED": "Sie sind nicht berechtigt, auf dieses Projekt zuzugreifen.",
+      "OTHER": "Ein Fehler ist aufgetreten. Bitte probieren Sie es noch einmal."
+    },
+    "HEADING": "Login",
+    "DESCRIPTION": "Bitte geben Sie Ihre Email-Adresse ein.",
+    "EMAIL_INPUT_LABEL": "Email",
+    "LOGIN_BUTTON": "Login"
+  },
+  "VERIFY_OPT": {
+    "ERROR": {
+      "BLANK_OTP": "Bitte geben Sie die Einmal-PIN ein.",
+      "INCORRECT_OTP_WITH_REMAINING_ATTEMPTS_one": "Die Einmal-PIN ist inkorrekt. Bitten versuchen Sie es erneut. Es verbleibt {{count}} Versuch.",
+      "INCORRECT_OTP_WITH_REMAINING_ATTEMPTS_other": "Die Einmal-PIN ist inkorrekt. Bitten versuchen Sie es erneut. Es verbleiben {{count}} Versuche.",
+      "EXPIRED_OTP": "Die Einmal-PIN ist abgelaufen. Bitten starten Sie den Login Prozess erneut.",
+      "TOO_MANY_INCORRECT_OTP_ATTEMPTS": "Die Einmal-PIN wurde zu oft falsch eingegeben. Bitte starten Sie den Login Prozess erneut.",
+      "OTHER": "Ein Fehler ist aufgetreten. Bitte probieren Sie es noch einmal."
+    },
+    "HEADING": "Einmal-PIN",
+    "DESCRIPTION": "Bitte geben Sie die Einmal-PIN ein, die an Ihre Email-Adresse <u>{{email}}</u> verschickt wurde.",
+    "CODE_INPUT_LABEL": "Einmal-PIN",
+    "LOGIN_BUTTON": "Login",
+    "CANCEL_BUTTON": "Abbrechen"
+  },
+  "HELP_LINK": "Hilfe? <link/>",
+  "LOGIN_SUCCESS_ALERT": "Login erfolgreich",
+  "LOGOUT": {
+    "SUCCESS_ALERT": "Logout erfolgreich",
+    "HEADING": "Logout",
+    "BODY": "Sie werden ausgeloggt..."
+  },
+  "REFRESH": {
+    "HEADING": "Login"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ERROR": {
+    "404": {
+      "HEADING": "Diese Seite konnte nicht gefunden werden",
+      "IMAGE_ALT": "Zeichnung von einem Fragezeichen"
+    },
+    "500": {
+      "HEADING": "Ein unerwarteter Fehler ist aufgetreten",
+      "IMAGE_ALT": "Zeichnung von einem Ausrufezeichen"
+    }
+  }
+}

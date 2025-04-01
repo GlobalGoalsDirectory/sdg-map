@@ -1,0 +1,9 @@
+{
+  "MAP": {
+    "CLUSTER_TOOLTIP": {
+      "ACTOR_COUNT_one": "Klicken, um {{count}} Ökosystem-Akteur zu zeigen",
+      "ACTOR_COUNT_other": "Klicken, um alle {{count}} Ökosystem-Akteure zu zeigen"
+    }
+  },
+  "NO_RESULTS": "Keine Ergebnisse gefunden"
+}

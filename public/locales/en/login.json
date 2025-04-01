@@ -1,0 +1,39 @@
+{
+  "REQUEST_OPT": {
+    "ERROR": {
+      "BLANK_EMAIL": "Please enter your email address.",
+      "EMAIL_INVALID": "This email address is not valid.",
+      "ACCESS_DENIED": "You do not have permission to access this project.",
+      "OTHER": "An unexpected error has occurred. Please try again."
+    },
+    "HEADING": "Login",
+    "DESCRIPTION": "Please enter your email address.",
+    "EMAIL_INPUT_LABEL": "Email",
+    "LOGIN_BUTTON": "Login"
+  },
+  "VERIFY_OPT": {
+    "ERROR": {
+      "BLANK_OTP": "Please enter the login code.",
+      "INCORRECT_OTP_WITH_REMAINING_ATTEMPTS_one": "The code is incorrect. Please try again. You have {{count}} attempt remaining.",
+      "INCORRECT_OTP_WITH_REMAINING_ATTEMPTS_other": "The code is incorrect. Please try again. You have {{count}} attempts remaining.",
+      "EXPIRED_OTP": "The code has expired. Please restart the login process.",
+      "TOO_MANY_INCORRECT_OTP_ATTEMPTS": "Too many incorrect attempts. Please restart the login process.",
+      "OTHER": "An unexpected error has occurred. Please try again."
+    },
+    "HEADING": "Enter Code",
+    "DESCRIPTION": "Please enter the code that was sent to your email address <u>{{email}}</u>.",
+    "CODE_INPUT_LABEL": "Code",
+    "LOGIN_BUTTON": "Login",
+    "CANCEL_BUTTON": "Cancel"
+  },
+  "HELP_LINK": "Help? <link/>",
+  "LOGIN_SUCCESS_ALERT": "Login successful",
+  "LOGOUT": {
+    "SUCCESS_ALERT": "Logout successful",
+    "HEADING": "Logout",
+    "BODY": "You are being logged out..."
+  },
+  "REFRESH": {
+    "HEADING": "Login"
+  }
+}

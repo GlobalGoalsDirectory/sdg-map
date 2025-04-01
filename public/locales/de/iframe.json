@@ -1,0 +1,32 @@
+{
+  "DRAWER": {
+    "CLOSE_BUTTON": {
+      "LABEL": "Schließen"
+    },
+    "SDGS": {
+      "HEADING": "Nachhaltigkeitsziele"
+    },
+    "REPORT_ERROR": {
+      "LABEL": "Fehler melden / Eintrag löschen"
+    },
+    "DATA_COLLECTION": {
+      "LABEL": "Diese Daten wurden automatisiert erhoben. Weitere Infos."
+    },
+    "GET_IN_TOUCH_BUTTON": {
+      "LABEL": "Kontakt aufnehmen"
+    }
+  },
+  "DIALOG": {
+    "DATA_COLLECTION": {
+      "TITLE": "Datenerhebung",
+      "BODY": "Die dargestellten Daten wurden im Rahmen eines Projektes automatisiert erhoben. Mit Hilfe einer KI wurde die Webseite des Akteurs analysiert und mögliche relevante Nachhaltigkeitsziele identifiziert. Die zugeordneten Nachhaltigkeitsziele sind daher als Ausgangspunkt, ohne Anspruch auf Vollständigkeit, zu verstehen. Für die Analyse wurden ausschließlich öffentlich zugängliche Daten herangezogen.",
+      "CLOSE_BUTTON": "Schließen"
+    }
+  },
+  "SEARCH_AUTOCOMPLETE": {
+    "ADD_NEW_ENTRY": "Neuen Eintrag hinzufügen",
+    "SEARCH_BUTTON_ARIA_LABEL": "Suchen",
+    "PLACEHOLDER_TEXT": "Suchen...",
+    "LOADING_TEXT": "Ergebnisse werden geladen..."
+  }
+}

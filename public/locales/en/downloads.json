@@ -1,0 +1,15 @@
+{
+  "CARD": {
+    "ECOSYSTEM_ACTORS": {
+      "TITLE": "Ecosystem Actors",
+      "TYPE": "Dataset",
+      "DESCRIPTION": "The ecosystem actors dataset contains a list of all the organisations and companies that have been identified and analysed. It features the ecosystem actor name, website, contact details, and relevant Sustainable Development Goals."
+    },
+    "SDG_REFERENCES": {
+      "TITLE": "SDG References",
+      "TYPE": "Dataset",
+      "DESCRIPTION": "The SDG references dataset contains a list of all the webpages where a link to the Sustainable Development Goals was detected. It features the URL of the webpage, the matched SDG, and the discovered keywords."
+    },
+    "DOWNLOAD_BUTTON": "Download"
+  }
+}

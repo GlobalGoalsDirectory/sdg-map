@@ -1,0 +1,45 @@
+{
+  "PAGE": {
+    "HEADING_WITH_PROJECT_NAME": "SDG Ecosystem: {{project}}"
+  },
+  "BUTTONS": {
+    "VIEW_DIRECTORY": "View Directory",
+    "VIEW_MAP": "View Map",
+    "VIEW_INSIGHTS": "View Insights"
+  },
+  "STATS": {
+    "HEADING": "Overview",
+    "SCOPE": {
+      "LABEL": "Scope",
+      "VALUE_one": "{{count, number}} ecosystem actor",
+      "VALUE_other": "{{count, number}} ecosystem actors"
+    },
+    "TIME_FRAME": {
+      "LABEL": "Time Frame",
+      "VALUE": "{{start, datetime}} — {{end, datetime}}"
+    },
+    "WEBPAGES_SCANNED": {
+      "LABEL": "Webpages scanned",
+      "VALUE_one": "{{count, number}} webpage",
+      "VALUE_other": "{{count, number}} webpages"
+    },
+    "WORDS_ANALYZED": {
+      "LABEL": "Words analysed",
+      "VALUE_one": "{{count, number}} word",
+      "VALUE_other": "{{count, number}} words"
+    },
+    "KEYWORDS_FOUND": {
+      "LABEL": "SDG keywords found",
+      "VALUE_one": "{{count, number}} keyword",
+      "VALUE_other": "{{count, number}} keywords"
+    },
+    "WEBPAGES_WITH_SDG_FOCUS": {
+      "LABEL": "Webpages with SDG focus",
+      "VALUE_one": "{{count, number}} webpage",
+      "VALUE_other": "{{count, number}} webpages"
+    }
+  },
+  "PROJECT_PARTNERS": {
+    "HEADING": "Project Partners"
+  }
+}

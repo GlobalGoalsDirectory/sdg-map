@@ -1,0 +1,45 @@
+{
+  "PAGE": {
+    "HEADING_WITH_PROJECT_NAME": "SDG Ökosystem: {{project}}"
+  },
+  "BUTTONS": {
+    "VIEW_DIRECTORY": "Verzeichnis ansehen",
+    "VIEW_MAP": "Karte ansehen",
+    "VIEW_INSIGHTS": "Statistik ansehen"
+  },
+  "STATS": {
+    "HEADING": "Überblick",
+    "SCOPE": {
+      "LABEL": "Umfang",
+      "VALUE_one": "{{count, number}} Ökosystem-Akteur",
+      "VALUE_other": "{{count, number}} Ökosystem-Akteure"
+    },
+    "TIME_FRAME": {
+      "LABEL": "Zeitraum",
+      "VALUE": "{{start, datetime}} — {{end, datetime}}"
+    },
+    "WEBPAGES_SCANNED": {
+      "LABEL": "Gescannte Webseiten",
+      "VALUE_one": "{{count, number}} Webseite",
+      "VALUE_other": "{{count, number}} Webseiten"
+    },
+    "WORDS_ANALYZED": {
+      "LABEL": "Analysierte Wörter",
+      "VALUE_one": "{{count, number}} Wort",
+      "VALUE_other": "{{count, number}} Wörter"
+    },
+    "KEYWORDS_FOUND": {
+      "LABEL": "Gefunde SDG-Keywords",
+      "VALUE_one": "{{count, number}} Schlüsselwort",
+      "VALUE_other": "{{count, number}} Schlüsselwörter"
+    },
+    "WEBPAGES_WITH_SDG_FOCUS": {
+      "LABEL": "Webseiten mit SDG-Bezug",
+      "VALUE_one": "{{count, number}} Webseite",
+      "VALUE_other": "{{count, number}} Webseiten"
+    }
+  },
+  "PROJECT_PARTNERS": {
+    "HEADING": "Projektpartner"
+  }
+}

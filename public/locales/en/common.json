@@ -1,0 +1,75 @@
+{
+  "ADDRESS_AUTOCOMPLETE": {
+    "LOADING_TEXT": "Loading..."
+  },
+  "NAVIGATION": {
+    "SDG_ECOSYSTEM": "SDG Ecosystem",
+    "TOOLTIPS": {
+      "CHANGE_LANGUAGE": "Change language",
+      "LOGGED_IN_AS_EMAIL": "Logged in as {{email}}",
+      "LOGOUT": "Logout"
+    },
+    "LOGOUT": "Logout",
+    "LOGIN": "Login",
+    "OVERVIEW": "Overview",
+    "DIRECTORY": "Directory",
+    "MAP": "Map",
+    "INSIGHTS": "Insights",
+    "WEBSEARCH": "Web Search",
+    "DOWNLOADS": "Downloads",
+    "SUPPORT": "Support",
+    "FEEDBACK": "Feedback",
+    "POWERED_BY": "Powered by",
+    "IMPRINT": "Imprint",
+    "PRIVACY_POLICY": "Privacy Policy"
+  },
+  "SDG_NUMBER_AND_TITLE": "SDG {{number}}: {{title}}",
+  "IMAGE_INPUT": {
+    "UPLOAD_IMAGE": "Upload image",
+    "CLEAR_IMAGE": "Clear image",
+    "DRAG_N_DROP_HINT": "or drag and drop image"
+  },
+  "TRUNCATED_TEXT": {
+    "MORE_BUTTON": "more"
+  },
+  "MANUAL_CONFIDENCE_LEVEL": "Manually assigned",
+  "HIGH_CONFIDENCE_LEVEL": "High confidence",
+  "MEDIUM_CONFIDENCE_LEVEL": "Medium confidence",
+  "LOW_CONFIDENCE_LEVEL": "Low confidence",
+  "NO_CONFIDENCE_LEVEL": "No confidence",
+  "MANUAL_CONFIDENCE_LEVEL_SHORT": "Manual",
+  "HIGH_CONFIDENCE_LEVEL_SHORT": "High",
+  "MEDIUM_CONFIDENCE_LEVEL_SHORT": "Medium",
+  "LOW_CONFIDENCE_LEVEL_SHORT": "Low",
+  "NO_CONFIDENCE_LEVEL_SHORT": "Unsure",
+  "MANUAL_CONFIDENCE_LEVEL_EXPLANATION": "This SDG was assigned manually",
+  "HIGH_CONFIDENCE_LEVEL_EXPLANATION": "High confidence: Many relevant matches were found for this SDG",
+  "MEDIUM_CONFIDENCE_LEVEL_EXPLANATION": "Medium confidence: Some relevant matches were found for this SDG",
+  "LOW_CONFIDENCE_LEVEL_EXPLANATION": "Low confidence: Only a few relevant matches were found for this SDG",
+  "NO_CONFIDENCE_LEVEL_EXPLANATION": "No confidence: Isolated matches were found that could potentially be relevant",
+  "TYPE": {
+    "STARTUP": "Startup",
+    "BUSINESS": "Company",
+    "NONPROFIT": "Non-Profit",
+    "OTHER": "Other"
+  },
+  "BREADCRUMBS": {
+    "IMPRINT": "Imprint",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "LOGIN": "Login",
+    "INDEX": "Overview",
+    "DIRECTORY": "Directory",
+    "MAP": "Map",
+    "INSIGHTS": "Insights",
+    "WEBSEARCH": "Web Search",
+    "DOWNLOADS": "Downloads",
+    "ORGANIZATIONS": {
+      "NEW": "New actor",
+      "EDIT": "Edit"
+    }
+  },
+  "WEBSITE_TITLE": "Global Goals Directory: Platform",
+  "BUTTONS": {
+    "NEW_ACTOR": "New actor"
+  }
+}

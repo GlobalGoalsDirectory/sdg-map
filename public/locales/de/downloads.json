@@ -1,0 +1,15 @@
+{
+  "CARD": {
+    "ECOSYSTEM_ACTORS": {
+      "TITLE": "Ökosystem Akteure",
+      "TYPE": "Datensatz",
+      "DESCRIPTION": "Der Datensatz der Ökosystem-Akteure enthält eine Liste aller Organisationen und Unternehmen, die identifiziert und analysiert wurden. Sie enthält den Namen des Ökosystem-Akteurs, Webseite, Kontaktdaten und die relevanten Sustainable Development Goals."
+    },
+    "SDG_REFERENCES": {
+      "TITLE": "SDG Referenzen",
+      "TYPE": "Datensatz",
+      "DESCRIPTION": "Der Datensatz der SDG-Referenzen enthält eine Liste aller Webseiten, auf denen eine Relevanz zu den Sustainable Development Goals festgestellt wurde. Sie enthält die URL der Webseite, das entsprechende SDG und die entdeckten Schlüsselwörter."
+    },
+    "DOWNLOAD_BUTTON": "Herunterladen"
+  }
+}

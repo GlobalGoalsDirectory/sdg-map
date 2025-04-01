@@ -1,0 +1,74 @@
+{
+  "FILTER": {
+    "SDGS": {
+      "LABEL": "SDGs",
+      "AUTOCOMPLETE_LABEL": "SDGs auswählen"
+    },
+    "WAS_ANALYZED": {
+      "LABEL": "Analysiert",
+      "BUTTON_LABELS": {
+        "TRUE": "Ja",
+        "FALSE": "Nein"
+      },
+      "AUTOCOMPLETE_LABELS": {
+        "TRUE": "Analysiert",
+        "FALSE": "Nicht analysiert"
+      },
+      "AUTOCOMPLETE_LABEL": "Analysiert auswählen"
+    },
+    "TYPE": {
+      "LABEL": "Typ",
+      "AUTOCOMPLETE_LABEL": "Typ auswählen"
+    },
+    "SECTOR": {
+      "LABEL": "Sektor",
+      "AUTOCOMPLETE_LABEL": "Sektor auswählen"
+    },
+    "ZIP_CODE": {
+      "LABEL": "Postleitzahl",
+      "AUTOCOMPLETE_LABEL": "Postleitzahl auswählen"
+    },
+    "LOCALITY": {
+      "LABEL": "Gemeinde",
+      "AUTOCOMPLETE_LABEL": "Gemeinde auswählen"
+    },
+    "COUNTY": {
+      "LABEL": "Landkreis",
+      "AUTOCOMPLETE_LABEL": "Landkreis"
+    },
+    "TAG": {
+      "LABEL": "Tags",
+      "AUTOCOMPLETE_LABEL": "Tags"
+    },
+    "LABELS": {
+      "NO_VALUE": "Keine Angabe"
+    }
+  },
+  "BAR": {
+    "ADD_FILTER_BUTTON": "Filter hinzufügen",
+    "REMOVE_ALL_FILTERS_BUTTON": "Alle Filter entfernen",
+    "SEARCH_PLACEHOLDER": "Suchen"
+  },
+  "ADD_FILTER_DIALOG": {
+    "MENU_HEADING": "Filtern nach:"
+  },
+  "REMOVE_ALL_FILTERS_DIALOG": {
+    "TITLE": "Alle Filter entfernen",
+    "BODY": "Möchten Sie wirklich alle Filter entfernen?",
+    "CANCEL_BUTTON": "Nein",
+    "CONFIRM_BUTTON": "Ja"
+  },
+  "AUTOCOMPLETE": {
+    "NO_OPTIONS_TEXT": "Keine Optionen gefunden"
+  },
+  "FILTER_MENU": {
+    "ARIA_LABEL": "Weitere Aktionen",
+    "SELECT_ALL": "Alle auswählen",
+    "SELECT_NONE": "Alle abwählen",
+    "REMOVE_FILTER_BUTTON": "Filter entfernen"
+  },
+  "FILTER_DIALOG": {
+    "CONFIRM_BUTTON": "OK",
+    "REMOVE_BUTTON": "Entfernen"
+  }
+}

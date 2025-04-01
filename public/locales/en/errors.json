@@ -1,0 +1,12 @@
+{
+  "ERROR": {
+    "404": {
+      "HEADING": "This page could not be found",
+      "IMAGE_ALT": "Image of a question mark"
+    },
+    "500": {
+      "HEADING": "An unexpected error has occurred",
+      "IMAGE_ALT": "Image of an exclamation mark"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "DRAWER": {
+    "CLOSE_BUTTON": {
+      "LABEL": "Close"
+    },
+    "SDGS": {
+      "HEADING": "Sustainable Development Goals"
+    },
+    "REPORT_ERROR": {
+      "LABEL": "Report error / request deletion"
+    },
+    "DATA_COLLECTION": {
+      "LABEL": "This data was collected in an automated process. Learn more."
+    },
+    "GET_IN_TOUCH_BUTTON": {
+      "LABEL": "Get in touch"
+    }
+  },
+  "DIALOG": {
+    "DATA_COLLECTION": {
+      "TITLE": "Data collection",
+      "BODY": "The data was collected in an automated process within the context of a project. AI was used to analyse the stakeholder's website and identify potentially relevant Sustainable Development Goals. The assigned Sustainable Development Goals should therefore be regarded as a starting point and do not necessarily present an exhaustive list. Only publicly available data was used for the analysis.",
+      "CLOSE_BUTTON": "Close"
+    }
+  },
+  "SEARCH_AUTOCOMPLETE": {
+    "ADD_NEW_ENTRY": "Add new entry",
+    "SEARCH_BUTTON_ARIA_LABEL": "Search",
+    "PLACEHOLDER_TEXT": "Search...",
+    "LOADING_TEXT": "Loading..."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "CHART": {
+    "AXIS_LEFT_LABEL": "Ecosystem Actors (#)",
+    "TOOLTIP": {
+      "ACTOR_COUNT_one": "{{count, number}} ecosystem actor",
+      "ACTOR_COUNT_other": "{{count, number}} ecosystem actors"
+    }
+  },
+  "NO_RESULTS": "No results found"
+}
