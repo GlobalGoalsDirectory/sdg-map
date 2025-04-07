@@ -31,7 +31,7 @@ import {
   Twitter,
 } from "mdi-material-ui";
 import { useTranslation } from "next-i18next";
-// import { Resize } from "@cloudinary/url-gen/actions/resize";
+import { Resize } from "@cloudinary/url-gen/actions/resize";
 import {
   usePopupState,
   bindTrigger,
@@ -45,7 +45,7 @@ import useSdg from "@/hooks/useSdg";
 import getSdgIcon from "@/helpers/getSdgIcon";
 import getSdgColor from "@/helpers/getSdgColor";
 import getSocialHandle from "@/helpers/getSocialHandle";
-// import cloudinary from "@/helpers/cloudinary";
+import cloudinary from "@/helpers/cloudinary";
 
 import type { Organization } from "@/types/Organization";
 import type { SdgNumber } from "@/types/SdgNumber";
@@ -197,18 +197,16 @@ const DrawerContent = ({
               height={1}
               left={0}
               top={0}
-              sx={
-                {
-                  // TODO
-                  // background: `url(${cloudinary
-                  //   .image(organization.cover_image_id)
-                  //   // Scale down the image to 840px x 480px
-                  //   .resize(Resize.limitFill().width(840).height(480))
-                  //   .toURL()})`,
-                  // backgroundSize: "cover",
-                  // backgroundPosition: "center",
-                }
-              }
+              sx={{
+                // TODO: Replace cloudinary with generic image host / image URL
+                background: `url(${cloudinary
+                  .image(organization.cover_image_id)
+                  // Scale down the image to 840px x 480px
+                  .resize(Resize.limitFill().width(840).height(480))
+                  .toURL()})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
             />
           </Box>
         )}
