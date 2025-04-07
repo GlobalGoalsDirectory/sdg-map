@@ -21,7 +21,7 @@ export default function IframePage() {
       showAiDisclaimer={false}
       showSearch={false}
       showFilters={false}
-      emailAddressForInquiries={"TODO"}
+      emailAddressForInquiries={null}
     />
   );
 }
