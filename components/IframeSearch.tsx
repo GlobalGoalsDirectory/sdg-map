@@ -15,7 +15,7 @@ import { useAutocomplete } from "@mui/material";
 import { autocompleteClasses } from "@mui/material/Autocomplete";
 import { Close, Magnify, MapMarker, Plus } from "mdi-material-ui";
 import { motion } from "framer-motion";
-import { debounce } from "lodash";
+import { debounce, omit } from "lodash";
 import { useTranslation } from "next-i18next";
 import { useIframeStore } from "@/stores/IframeStore";
 import usePublicOrganizationSearch from "@/hooks/usePublicOrganizationSearch";
@@ -235,9 +235,9 @@ const IframeSearch = observer(
                 (groupedOptions as AutocompleteOption[]).map(
                   (option, index) => (
                     <ListItem
-                      dense
-                      {...getOptionProps({ option, index })}
                       key={option.id}
+                      {...omit(getOptionProps({ option, index }), ["key"])}
+                      dense
                       sx={(theme) => ({
                         paddingX: 1,
                         wordWrap: "break-word",

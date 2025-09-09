@@ -19,7 +19,7 @@ export default function IframePage() {
   return (
     <IframeMapComponent
       showAiDisclaimer={false}
-      showSearch={false}
+      showSearch={true}
       showFilters={true}
       emailAddressForInquiries={null}
     />
