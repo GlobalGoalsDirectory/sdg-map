@@ -16,7 +16,6 @@ import {
 import { Check, Close, DotsHorizontal } from "mdi-material-ui";
 import { useTranslation } from "next-i18next";
 import {
-  anchorRef,
   bindMenu,
   bindPopover,
   bindTrigger,
@@ -27,7 +26,10 @@ import { autocompleteClasses } from "@mui/material/Autocomplete";
 import { omit } from "lodash";
 import classNames from "classnames";
 
-import type { AutocompleteCloseReason } from "@mui/material";
+import type {
+  AutocompleteCloseReason,
+  AutocompletePopperSlotPropsOverrides,
+} from "@mui/material";
 import type { CheckboxFilterValue, Filter } from "@/types/Filter";
 
 const BUTTON_PROPS = {
@@ -167,8 +169,10 @@ const CheckboxFilter = observer(
       <>
         <Button
           {...bindTrigger(filterPopover)}
-          ref={anchorRef(filterPopover)}
-          onClick={filter.open}
+          onClick={(event) => {
+            filter.open();
+            filterPopover.open(event);
+          }}
           {...BUTTON_PROPS[variant]}
           className={classNames({ "has-value": hasValue, "is-open": isOpen })}
           sx={[
@@ -219,11 +223,13 @@ const CheckboxFilter = observer(
             onChange={onChange}
             disableCloseOnSelect
             disablePortal
-            PopperComponent={(props) => <AutocompletePopper {...props} />}
+            slots={{
+              popper: AutocompletePopper,
+            }}
             getOptionLabel={getOptionLabelForAutocomplete}
             noOptionsText={t("AUTOCOMPLETE.NO_OPTIONS_TEXT")}
-            renderOption={(props, option) => (
-              <li {...props} style={{ padding: 0 }}>
+            renderOption={({ key, ...props }, option) => (
+              <li key={key} {...props} style={{ padding: 0 }}>
                 <Box paddingX={1} paddingY={0.5} display="flex" width={1}>
                   <Check
                     fontSize="small"
@@ -364,7 +370,7 @@ const StyledAutocompletePopper = styled("div")(({ theme }) => ({
   },
 }));
 
-const AutocompletePopper = (props: Record<string, unknown>) => {
+const AutocompletePopper = (props: AutocompletePopperSlotPropsOverrides) => {
   return (
     <StyledAutocompletePopper
       {...omit(props, ["disablePortal", "anchorEl", "open"])}

@@ -16,6 +16,12 @@ export function getOptions(lng: string = fallbackLng, ns: string = defaultNS) {
     returnNull: false,
     // Do not allow ns separators
     nsSeparator: false as const,
+    // Do not escape interpolation, otherwise forward slash is rendered
+    // strangely
+    // See: https://github.com/i18next/i18next/discussions/2199
+    interpolation: {
+      escapeValue: false,
+    },
     // Allow key separators
     keySeparator: ".",
     // Log warning when a translation is missing
